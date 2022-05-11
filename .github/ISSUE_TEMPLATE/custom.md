@@ -7,36 +7,43 @@ assignees: ''
 
 ---
 
-- type: markdown
-    attributes:
-      value: |
-        **IMPORTANT:** Before submitting:
-        - Is your feature request related to the fronted? Then click [here](https://github.com/nurikk/zigbee2mqtt-frontend/issues/new?assignees=&labels=&template=feature_request.md&title=)
-  - type: textarea
-    id: textarea1
-    attributes:
-      label: Is your feature request related to a problem? Please describe
-      placeholder: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-    validations:
-      required: true
-  - type: textarea
-    id: textarea2
-    attributes:
-      label: Describe the solution you'd like
-      placeholder: A clear and concise description of what you want to happen.
-    validations:
-      required: true
-  - type: textarea
-    id: textarea3
-    attributes:
-      label: Describe alternatives you've considered
-      placeholder: A clear and concise description of any alternative solutions or features you've considered.
-    validations:
-      required: true
-  - type: textarea
-    id: textarea4
-    attributes:
-      label: Additional context
-      placeholder: Add any other context or screenshots about the feature request here.
-    validations:
-      required: true
+---
+name: 🐞 Bug
+about: File a bug/issue
+title: '[BUG] <title>'
+labels: Bug, Needs Triage
+assignees: ''
+
+---
+
+<!--
+Note: Please search to see if an issue already exists for the bug you encountered.
+-->
+
+### Current Behavior:
+<!-- A concise description of what you're experiencing. -->
+
+### Expected Behavior:
+<!-- A concise description of what you expected to happen. -->
+
+### Steps To Reproduce:
+<!--
+Example: steps to reproduce the behavior:
+1. In this environment...
+2. With this config...
+3. Run '...'
+4. See error...
+-->
+
+### Environment:
+<!--
+Example:
+- OS: Ubuntu 20.04
+- Node: 13.14.0
+- npm: 7.6.3
+-->
+
+### Anything else:
+<!--
+Links? References? Anything that will give us more context about the issue that you are encountering!
+-->
